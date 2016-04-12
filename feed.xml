@@ -6,9 +6,41 @@
 </description>
     <link>http://essays.uys.io/</link>
     <atom:link href="http://essays.uys.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Apr 2016 15:13:01 +0000</pubDate>
-    <lastBuildDate>Tue, 12 Apr 2016 15:13:01 +0000</lastBuildDate>
+    <pubDate>Tue, 12 Apr 2016 16:16:45 +0000</pubDate>
+    <lastBuildDate>Tue, 12 Apr 2016 16:16:45 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Note to self - HP PhotoSmart on Arch Linux</title>
+        <description>&lt;h1 id=&quot;note-to-self&quot;&gt;Note to self&lt;/h1&gt;
+
+&lt;p&gt;Installing an HP PhotoSmart 5520 on Arch Linux.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Switch on printer, and connect via USB&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;sudo pacman -S cups ghostscript gsfonts&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;yaourt -S hpoj&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add &lt;code&gt;wheel&lt;/code&gt; to &lt;code&gt;SystemGroup&lt;/code&gt; in &lt;code&gt;/etc/cups/cups-files.conf&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Restart cups with &lt;code&gt;sudo systemctl restart org.cups.cupsd.service&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Go to &lt;code&gt;http://localhost:631/&lt;/code&gt; and click on &lt;code&gt;Adding Printers and Classes&lt;/code&gt; then &lt;code&gt;Add Printer&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Authenticate with your system login&lt;/li&gt;
+  &lt;li&gt;Click through all the options&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets//notes/2016/04/12/note-to-self-hp-photosmart-on-arch-linux/printadmin.png&quot; alt=&quot;Printer setup screen&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Apr 2016 16:33:43 +0000</pubDate>
+        <link>http://essays.uys.io/notes/2016/04/12/note-to-self-hp-photosmart-on-arch-linux.html</link>
+        <guid isPermaLink="true">http://essays.uys.io/notes/2016/04/12/note-to-self-hp-photosmart-on-arch-linux.html</guid>
+        
+        <category>note</category>
+        
+        <category>arch</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>Using Clojure with Unity3D inside Docker</title>
@@ -16,7 +48,7 @@
 
 &lt;p&gt;So, I instead spent my time implementing a subset of Flappy Bird.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets//2016/03/29/using-clojure-with-unity3d-inside-docker/flappy.gif&quot; alt=&quot;flappy bird&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets//blog/2016/03/29/using-clojure-with-unity3d-inside-docker/flappy.gif&quot; alt=&quot;flappy bird&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When using Unity3D, I can imagine most of the work going into asset creation, story/level progression and play testing. This is the only real code I wrote:&lt;/p&gt;
 
@@ -61,8 +93,8 @@
 &lt;p&gt;Oh, and I did mention that I’m doing all of this &lt;a href=&quot;https://github.com/opyate/unity3d&quot;&gt;inside Docker&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 29 Mar 2016 10:50:20 +0000</pubDate>
-        <link>http://essays.uys.io/2016/03/29/using-clojure-with-unity3d-inside-docker.html</link>
-        <guid isPermaLink="true">http://essays.uys.io/2016/03/29/using-clojure-with-unity3d-inside-docker.html</guid>
+        <link>http://essays.uys.io/blog/2016/03/29/using-clojure-with-unity3d-inside-docker.html</link>
+        <guid isPermaLink="true">http://essays.uys.io/blog/2016/03/29/using-clojure-with-unity3d-inside-docker.html</guid>
         
         <category>unity3d</category>
         
@@ -70,6 +102,8 @@
         
         <category>docker</category>
         
+        
+        <category>blog</category>
         
       </item>
     
@@ -101,11 +135,11 @@
 
 &lt;p&gt;Turns out I had a good week.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets//2016/03/10/docker-this-docker-that/gl.png&quot; alt=&quot;Github Leaderboard&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets//blog/2016/03/10/docker-this-docker-that/gl.png&quot; alt=&quot;Github Leaderboard&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Mar 2016 21:47:16 +0000</pubDate>
-        <link>http://essays.uys.io/2016/03/10/docker-this-docker-that.html</link>
-        <guid isPermaLink="true">http://essays.uys.io/2016/03/10/docker-this-docker-that.html</guid>
+        <link>http://essays.uys.io/blog/2016/03/10/docker-this-docker-that.html</link>
+        <guid isPermaLink="true">http://essays.uys.io/blog/2016/03/10/docker-this-docker-that.html</guid>
         
         <category>docker</category>
         
@@ -116,6 +150,8 @@
         <category>github</category>
         
         
+        <category>blog</category>
+        
       </item>
     
       <item>
@@ -124,16 +160,18 @@
 
 &lt;p&gt;&lt;em&gt;So, I’ll just email myself this Ajax magic so I can use it in my other projects…&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets//2016/02/29/ajax-when-was-your-first-time/ajax.png&quot; alt=&quot;Ajax magic&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets//blog/2016/02/29/ajax-when-was-your-first-time/ajax.png&quot; alt=&quot;Ajax magic&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Feb 2016 19:56:24 +0000</pubDate>
-        <link>http://essays.uys.io/2016/02/29/ajax-when-was-your-first-time.html</link>
-        <guid isPermaLink="true">http://essays.uys.io/2016/02/29/ajax-when-was-your-first-time.html</guid>
+        <link>http://essays.uys.io/blog/2016/02/29/ajax-when-was-your-first-time.html</link>
+        <guid isPermaLink="true">http://essays.uys.io/blog/2016/02/29/ajax-when-was-your-first-time.html</guid>
         
         <category>ajax</category>
         
         <category>dinosaur</category>
         
+        
+        <category>blog</category>
         
       </item>
     
@@ -227,8 +265,8 @@
 &lt;p&gt;It’s by no means complete, and I plan to implement basic functionality involving navigation, documentation, tests (Pixie test frameworks permitting), and evaluation of more forms.&lt;/p&gt;
 </description>
         <pubDate>Sat, 17 Oct 2015 15:35:34 +0000</pubDate>
-        <link>http://essays.uys.io/2015/10/17/spacemacs-layer-for-pixie.html</link>
-        <guid isPermaLink="true">http://essays.uys.io/2015/10/17/spacemacs-layer-for-pixie.html</guid>
+        <link>http://essays.uys.io/blog/2015/10/17/spacemacs-layer-for-pixie.html</link>
+        <guid isPermaLink="true">http://essays.uys.io/blog/2015/10/17/spacemacs-layer-for-pixie.html</guid>
         
         <category>pixie</category>
         
@@ -236,6 +274,8 @@
         
         <category>emacs</category>
         
+        
+        <category>blog</category>
         
       </item>
     
@@ -303,14 +343,16 @@
 
 &lt;p&gt;Et voilà!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets//2015/10/11/mandelbrot-fractal-with-pixie-on-ubuntu/mandelbrot-pixie.png&quot; alt=&quot;Mandelbrot with Pixie&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets//blog/2015/10/11/mandelbrot-fractal-with-pixie-on-ubuntu/mandelbrot-pixie.png&quot; alt=&quot;Mandelbrot with Pixie&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 11 Oct 2015 22:59:15 +0000</pubDate>
-        <link>http://essays.uys.io/2015/10/11/mandelbrot-fractal-with-pixie-on-ubuntu.html</link>
-        <guid isPermaLink="true">http://essays.uys.io/2015/10/11/mandelbrot-fractal-with-pixie-on-ubuntu.html</guid>
+        <link>http://essays.uys.io/blog/2015/10/11/mandelbrot-fractal-with-pixie-on-ubuntu.html</link>
+        <guid isPermaLink="true">http://essays.uys.io/blog/2015/10/11/mandelbrot-fractal-with-pixie-on-ubuntu.html</guid>
         
         <category>pixie</category>
         
+        
+        <category>blog</category>
         
       </item>
     
@@ -332,32 +374,36 @@
 
 &lt;p&gt;Here’s an &lt;a href=&quot;http://bizdaysuntil.herokuapp.com/?year=2015&amp;amp;month=12&amp;amp;day=25&amp;amp;what=Xmas&amp;amp;size=24&amp;amp;highlight=fefe55&quot;&gt;example&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets//2015/09/17/n-business-days-until/bizdaysuntil.png&quot; alt=&quot;business days until Xmas&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets//blog/2015/09/17/n-business-days-until/bizdaysuntil.png&quot; alt=&quot;business days until Xmas&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 17 Sep 2015 19:55:31 +0000</pubDate>
-        <link>http://essays.uys.io/2015/09/17/n-business-days-until.html</link>
-        <guid isPermaLink="true">http://essays.uys.io/2015/09/17/n-business-days-until.html</guid>
+        <link>http://essays.uys.io/blog/2015/09/17/n-business-days-until.html</link>
+        <guid isPermaLink="true">http://essays.uys.io/blog/2015/09/17/n-business-days-until.html</guid>
         
         <category>dashboards</category>
         
+        
+        <category>blog</category>
         
       </item>
     
       <item>
         <title>Can you embed a secure IFRAME inside a secure container site?</title>
-        <description>&lt;p&gt;In a &lt;a href=&quot;/2015/09/10/security-considerations-of-using-a-secure-iframe-on-an-insecure-page.html&quot;&gt;previous essay&lt;/a&gt; I discussed the security implications of hosting an IFRAME on an insecure container page. The follow-up question is whether it’s actually possible to host a secure IFRAME inside a secure container page, and if all browsers will allow this.&lt;/p&gt;
+        <description>&lt;p&gt;In a &lt;a href=&quot;/blog/2015/09/10/security-considerations-of-using-a-secure-iframe-on-an-insecure-page.html&quot;&gt;previous essay&lt;/a&gt; I discussed the security implications of hosting an IFRAME on an insecure container page. The follow-up question is whether it’s actually possible to host a secure IFRAME inside a secure container page, and if all browsers will allow this.&lt;/p&gt;
 
 &lt;p&gt;My gut feeling said that this should be possible, because the IFRAME has its own &lt;a href=&quot;http://www.w3.org/TR/html/browsers.html#nested-browsing-contexts&quot;&gt;browsing context&lt;/a&gt;. Browser support is a different question though, so I conducted a &lt;a href=&quot;https://github.com/opyate/securesecure&quot;&gt;quick experiment&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Sep 2015 19:43:07 +0000</pubDate>
-        <link>http://essays.uys.io/2015/09/15/can-you-embed-a-secure-iframe-on-a-secure-site.html</link>
-        <guid isPermaLink="true">http://essays.uys.io/2015/09/15/can-you-embed-a-secure-iframe-on-a-secure-site.html</guid>
+        <link>http://essays.uys.io/blog/2015/09/15/can-you-embed-a-secure-iframe-on-a-secure-site.html</link>
+        <guid isPermaLink="true">http://essays.uys.io/blog/2015/09/15/can-you-embed-a-secure-iframe-on-a-secure-site.html</guid>
         
         <category>security</category>
         
         <category>web</category>
         
+        
+        <category>blog</category>
         
       </item>
     
@@ -484,13 +530,15 @@
 &lt;p&gt;Choose your position on the scale, and accept the risk that’s forthcoming.&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Sep 2015 13:05:45 +0000</pubDate>
-        <link>http://essays.uys.io/2015/09/10/security-considerations-of-using-a-secure-iframe-on-an-insecure-page.html</link>
-        <guid isPermaLink="true">http://essays.uys.io/2015/09/10/security-considerations-of-using-a-secure-iframe-on-an-insecure-page.html</guid>
+        <link>http://essays.uys.io/blog/2015/09/10/security-considerations-of-using-a-secure-iframe-on-an-insecure-page.html</link>
+        <guid isPermaLink="true">http://essays.uys.io/blog/2015/09/10/security-considerations-of-using-a-secure-iframe-on-an-insecure-page.html</guid>
         
         <category>security</category>
         
         <category>web</category>
         
+        
+        <category>blog</category>
         
       </item>
     

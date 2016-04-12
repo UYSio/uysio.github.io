@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="globalsign-domain-verification" content="ymX0NUSgRv8E1Waz2FeiQ-x7GoJOGzKydkbWi9zINZ">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Note to self - HP PhotoSmart on Arch Linux</title>
+  <meta name="description" content="Note to self">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://essays.uys.io/notes/2016/04/12/note-to-self-hp-photosmart-on-arch-linux.html">
+  <link rel="alternate" type="application/rss+xml" title="Unleash Your Server" href="http://essays.uys.io/feed.xml" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+      <div class="trigger">
+        <ul>
+        
+        
+          
+        
+          
+        
+          
+            
+            <li>
+              <a class="page-link" href="/about.html">
+
+                
+                  About
+                
+
+              </a>
+            </li>
+            
+          
+        
+          
+            
+            <li>
+              <a class="page-link" href="/archive/">
+
+                
+                  Archive
+                
+
+              </a>
+            </li>
+            
+          
+        
+          
+            
+            <li>
+              <a class="page-link" href="/clients.html">
+
+                
+                  Clients
+                
+
+              </a>
+            </li>
+            
+          
+        
+          
+            
+            <li>
+              <a class="page-link" href="/contact.html">
+
+                
+                  Contact
+                
+
+              </a>
+            </li>
+            
+          
+        
+          
+            
+            <li>
+              <a class="page-link" href="/">
+
+                
+                  Home
+                
+
+              </a>
+            </li>
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+            <li>
+              <a class="page-link" href="/projects.html">
+
+                
+                  Projects
+                
+
+              </a>
+            </li>
+            
+          
+        
+          
+            
+            <li>
+              <a class="page-link" href="/feed.xml">
+
+                
+                  RSS
+                
+
+              </a>
+            </li>
+            
+          
+        
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Note to self - HP PhotoSmart on Arch Linux</h1>
+    <p class="post-meta">
+      2016-04-12
+      
+        under
+        
+          <a class="post-tag note" href="/tag/note">note</a>
+        
+          <a class="post-tag arch" href="/tag/arch">arch</a>
+        
+      
+    </p>
+  </header>
+
+  <article class="post-content">
+    <h1 id="note-to-self">Note to self</h1>
+
+<p>Installing an HP PhotoSmart 5520 on Arch Linux.</p>
+
+<ul>
+  <li>Switch on printer, and connect via USB</li>
+  <li><code>sudo pacman -S cups ghostscript gsfonts</code></li>
+  <li><code>yaourt -S hpoj</code></li>
+  <li>Add <code>wheel</code> to <code>SystemGroup</code> in <code>/etc/cups/cups-files.conf</code></li>
+  <li>Restart cups with <code>sudo systemctl restart org.cups.cupsd.service</code></li>
+  <li>Go to <code>http://localhost:631/</code> and click on <code>Adding Printers and Classes</code> then <code>Add Printer</code></li>
+  <li>Authenticate with your system login</li>
+  <li>Click through all the options</li>
+</ul>
+
+<p><img src="/assets//notes/2016/04/12/note-to-self-hp-photosmart-on-arch-linux/printadmin.png" alt="Printer setup screen" /></p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <a class="site-title" href="/">
+          <img src="/assets/logo/logob.png" alt="The Unleash Your Server logo" title="Unleash Your Server" height="120">
+        </a>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        &copy; Copyright Unleash Your Server 2013 &mdash; 2016
+      </div>
+
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+  </body>
+
+</html>
