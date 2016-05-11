@@ -49,7 +49,7 @@
           
             
             <li>
-              <a class="page-link" href="/archive/">
+              <a class="page-link" href="/archive/index.html">
 
                 
                   Archive
@@ -90,8 +90,12 @@
         
           
             
+          
+        
+          
+            
             <li>
-              <a class="page-link" href="/">
+              <a class="page-link" href="/index.html">
 
                 
                   Home
@@ -229,7 +233,7 @@
 
 <p>Start with creating the layer from within Spacemacs:</p>
 
-<figure class="highlight"><pre><code class="language-console" data-lang="console"><span class="go">&lt;SPC&gt; : configuration-layer/create-layer &lt;RET&gt;</span></code></pre></figure>
+<div class="highlight"><pre><code class="language-console" data-lang="console"><span class="go">&lt;SPC&gt; : configuration-layer/create-layer &lt;RET&gt;</span></code></pre></div>
 
 <p>Press <code>&lt;RET&gt;</code> again to create the layer in the default directory <code>$HOME/.emacs.d/private</code>.</p>
 
@@ -251,7 +255,7 @@
 
 <p>Here’s what I came up with for Pixie. At the moment, it offers bindings to start the REPL, and eval s-expressions (and an option to jump to the REPL after evaluation).</p>
 
-<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="c1">;;; packages.el --- pixie Layer packages File for Spacemacs</span>
+<div class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="c1">;;; packages.el --- pixie Layer packages File for Spacemacs</span>
 <span class="c1">;;</span>
 <span class="c1">;; Copyright (c) 2012-2014 Sylvain Benner</span>
 <span class="c1">;; Copyright (c) 2014-2015 Sylvain Benner &amp; Contributors</span>
@@ -304,7 +308,7 @@
 <span class="c1">;;</span>
 <span class="c1">;; Often the body of an initialize function uses `use-package&#39;</span>
 <span class="c1">;; For more info on `use-package&#39;, see readme:</span>
-<span class="c1">;; https://github.com/jwiegley/use-package</span></code></pre></figure>
+<span class="c1">;; https://github.com/jwiegley/use-package</span></code></pre></div>
 
 <p>It’s by no means complete, and I plan to implement basic functionality involving navigation, documentation, tests (Pixie test frameworks permitting), and evaluation of more forms.</p>
 
