@@ -6,9 +6,52 @@
 </description>
     <link>http://www.uys.io/</link>
     <atom:link href="http://www.uys.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jul 2016 12:21:57 +0000</pubDate>
-    <lastBuildDate>Mon, 11 Jul 2016 12:21:57 +0000</lastBuildDate>
+    <pubDate>Tue, 26 Jul 2016 22:24:19 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Jul 2016 22:24:19 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Mini Ludum Dare 69</title>
+        <description>&lt;p&gt;I started hacking on my &lt;a href=&quot;/projects/ld69/&quot;&gt;mini-LD 69 entry&lt;/a&gt; about 2 weeks ago.&lt;/p&gt;
+
+&lt;p&gt;Why? I love games, and wanted to do something other than the Finance Gubbins I’m currently building. &lt;em&gt;(hush hush - I’ll link to it later once I get permission)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;notes&quot;&gt;Notes&lt;/h1&gt;
+
+&lt;p&gt;I wanted an opportunity to learn &lt;a href=&quot;http://threejs.org/&quot;&gt;three.js&lt;/a&gt;. (It’s bloody marvellous!) The aim was to boost my D3.js skill-set with something similar-yet-different, and hopefully now I’m a step closer.&lt;/p&gt;
+
+&lt;p&gt;I forgot I also wanted to use &lt;a href=&quot;http://elm-lang.org/&quot;&gt;Elm&lt;/a&gt;, so perhaps I’ll brace mini-LD 70 with my &lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Pattern_matching_programming_languages&quot;&gt;pattern matching&lt;/a&gt; skills.&lt;/p&gt;
+
+&lt;p&gt;Also, I should have definitely spent a bit more time studying Euler angles, Matrix ops, &amp;amp;c up-front instead of tweaking/reloading as often as I did.&lt;/p&gt;
+
+&lt;p&gt;I spent a couple of hours a day for the past 2 weeks on it. Being a dad/husband (and on a full-time contract) prevented me from blasting this out in 48/72 hours to feel what a proper LD would be like.&lt;/p&gt;
+
+&lt;p&gt;Tests, or lack thereof. But this is a throwaway thingy, so the Test Police can go fiddle one.&lt;/p&gt;
+
+&lt;h1 id=&quot;preview&quot;&gt;Preview&lt;/h1&gt;
+
+&lt;p&gt;If the &lt;a href=&quot;/projects/ld69/&quot;&gt;link to the game&lt;/a&gt; doesn’t work, feast your eyes:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets//blog/2016/07/26/mini-ludum-dare-69/splash.png&quot; alt=&quot;Splash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets//blog/2016/07/26/mini-ludum-dare-69/game.png&quot; alt=&quot;Game&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If the game does work, see if you can find the Easter Egg.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Jul 2016 22:22:26 +0000</pubDate>
+        <link>http://www.uys.io/blog/2016/07/26/mini-ludum-dare-69.html</link>
+        <guid isPermaLink="true">http://www.uys.io/blog/2016/07/26/mini-ludum-dare-69.html</guid>
+        
+        <category>games</category>
+        
+        <category>threejs</category>
+        
+        <category>webgl</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Note to self - HP PhotoSmart on Arch Linux</title>
