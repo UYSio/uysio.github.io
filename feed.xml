@@ -6,13 +6,17 @@
 </description>
     <link>http://www.uys.io/</link>
     <atom:link href="http://www.uys.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Jul 2016 22:24:19 +0000</pubDate>
-    <lastBuildDate>Tue, 26 Jul 2016 22:24:19 +0000</lastBuildDate>
+    <pubDate>Tue, 26 Jul 2016 22:32:51 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Jul 2016 22:32:51 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Mini Ludum Dare 69</title>
         <description>&lt;p&gt;I started hacking on my &lt;a href=&quot;/projects/ld69/&quot;&gt;mini-LD 69 entry&lt;/a&gt; about 2 weeks ago.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If the game doesn’t seem to load (no 3D objects) or devtools shows a JS error, just refresh the page - apparently my RequireJS fu leaves something to be desired.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Why? I love games, and wanted to do something other than the Finance Gubbins I’m currently building. &lt;em&gt;(hush hush - I’ll link to it later once I get permission)&lt;/em&gt;&lt;/p&gt;
 
