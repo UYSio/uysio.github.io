@@ -259,7 +259,15 @@
 
 <p>Why? I love games, and wanted to do something other than the Finance Gubbins I’m currently building. <em>(hush hush - I’ll link to it later once I get permission)</em></p>
 
-<h1 id="notes">Notes</h1>
+<p>I spent a couple of hours a day for the past 2 weeks on it. Being a dad/husband (and on a full-time contract) prevented me from blasting this out in 48/72 hours to feel what a proper LD would be like.</p>
+
+<h1 id="attribution">Attribution</h1>
+
+<p>The game background image is <a href="https://commons.wikimedia.org/wiki/File:Night-sky-milky-way-galaxy-astrophotography_-_West_Virginia_-_ForestWander.jpg">Night Sky Milky Way Galaxy Astrophotography</a> from the Wikimedia Commons.</p>
+
+<p>The angry alien throwing the middle tentacle is my own doing. I drew it in 2013, after seeing <a href="http://mattiasadolfsson.com/">Matthias Adolfsson’s</a> work. (I’m a big fan — I even went as far as purchasing a Namiki Falcon, because that’s what he uses.)</p>
+
+<h1 id="an-opportunity-to-learn">An opportunity to learn</h1>
 
 <p>I wanted an opportunity to learn <a href="http://threejs.org/">three.js</a>. (It’s bloody marvellous!) The aim was to boost my D3.js skill-set with something similar-yet-different, and hopefully now I’m a step closer.</p>
 
@@ -267,9 +275,31 @@
 
 <p>Also, I should have definitely spent a bit more time studying Euler angles, Matrix ops, &amp;c up-front instead of tweaking/reloading as often as I did.</p>
 
-<p>I spent a couple of hours a day for the past 2 weeks on it. Being a dad/husband (and on a full-time contract) prevented me from blasting this out in 48/72 hours to feel what a proper LD would be like.</p>
+<h1 id="the-design">The design</h1>
 
-<p>Tests, or lack thereof. But this is a throwaway thingy, so the Test Police can go fiddle one.</p>
+<p>First of all, let me honestly claim this wasn’t inspired by Tetris. I just thought “how could I convey colonisation of a territory in a quick way” and cubes and stencils was the answer.</p>
+
+<p>I try to procedurally generate as many things as possible from an initial configuration.</p>
+
+<p>The game splash page is a bit all over the place right now, but it’s playful and clear enough for my liking.</p>
+
+<h2 id="stencils">Stencils</h2>
+
+<p>Talking about stencils, aka “colonies” — the constraint here is that stencils come in pairs. E.g. if you see a stencil with half the pixels missing, you can rely on its analogue to appear randomly later in turn.</p>
+
+<p>I think this is information the player can rely on. It was suggested on the LD forums that I make more than 2 stencils for a face, but I’m sticking to this constraint. Taking Tetris as an example, you can always rely on the Tetriminos looking a certain way.</p>
+
+<p>There are <a href="https://github.com/opyate/minild69/blob/99abe3d29aaf77661d096c2304eb09bdc7c3e0da/app/js/logic.js#L10-L40">8 types of stencil</a>: all, half, quarter, diagonal, checkered, center pixel, one pixel in the corner-ish, and random.</p>
+
+<p>Random is the challenge. Everything else is easy, but gets trickier when the speed cranks up. High speed + random is the killer, and perhaps the difficulty can be tweaked for this combo. But, I guess the player has to be ejected at some point!</p>
+
+<h1 id="the-missing-bits">The missing bits</h1>
+
+<p>Tests! But this is a throwaway thingy, so the Test Police can go fiddle one.</p>
+
+<p>Audio! I’m sure I’ll add a few procedurally-generated SFX if I decide to tweak it all a bit more, but otherwise the time constraints kicked in.</p>
+
+<p>Playtesting! The difficulty could be scaled a bit better. Perhaps fluctuating in a way it makes the “random” colonies a bit easier. Otherwise, the difficulty scales up linearly.</p>
 
 <h1 id="preview">Preview</h1>
 
