@@ -558,3 +558,21 @@ a.post-tag {
   color: #40a070; }
 
 /* Literal.Number.Integer.Long */
+@media print {
+  .site-nav {
+    display: none; }
+
+  .post-header {
+    display: none; }
+
+  .site-footer {
+    display: none; }
+
+  a[href]:after {
+    content: none !important; }
+
+  a {
+    color: #111 !important; }
+
+  #juan-m-uys::before {
+    content: "Curriculum Vitae of "; } }
