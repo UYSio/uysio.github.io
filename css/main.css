@@ -307,5 +307,7 @@ a.post-tag {
 
   article p:first-of-type {
     display: none; }
+  article blockquote p {
+    display: block !important; }
   article ul:first-of-type {
     display: none; } }
